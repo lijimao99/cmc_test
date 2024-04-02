@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote  name="Max" fetch="ssh://git@192.168.47.97"/>
+
+<default remote="Max" revision="main" sync-j="4" />
+
+<project name="Max/dev/kernel" path="kernel" remote="Max"/>
+<project name="Max/dev/framework" path="framework" remote="Max"/>
+<project name="Max/dev/device" path="device" remote="Max"/>
